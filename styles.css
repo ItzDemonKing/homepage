@@ -265,10 +265,11 @@
   
   .additional-info__languages-header {
     color: var(--secondary-text-color);
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
   }
   
   .additional-info__languages-item {
     color: var(--secondary-text-color);
+    margin-left: 30px;
   }
