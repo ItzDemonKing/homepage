@@ -165,9 +165,10 @@
     margin-bottom: 15px;
   }
   
-  .skills__text {
+  .skills__list {
     color: var(--secondary-text-color);
     text-align: justify;
+    list-style-position: inside;
   }
    
 /* Contact info styles */
@@ -178,15 +179,20 @@
   
   .experiences__header {
     color: var(--secondary-text-color);
-    text-align: left;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  
+  .experiences__company {
+    border-bottom: 1px solid #808080;
   }
   
   .experiences__company-header-durability {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
-    font-size: 15px;
+    margin-left: 30px;
   }
   
   .experiences__company-header-name {
@@ -195,10 +201,11 @@
     text-decoration-line: underline;
     text-align: left;
     margin-bottom: 20px;
+    margin-left: 30px;
   }
   
   .experiences__company-project {
-    margin-left: 15px;
+    margin-left: 30px;
     margin-bottom: 25px;
   }
   
@@ -218,6 +225,7 @@
   .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+    list-style-position: inside;
   }
   
   .additional-info {
@@ -257,10 +265,11 @@
   
   .additional-info__languages-header {
     color: var(--secondary-text-color);
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
   }
   
   .additional-info__languages-item {
     color: var(--secondary-text-color);
+    margin-left: 30px;
   }
